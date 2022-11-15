@@ -8,7 +8,7 @@ self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       // B6. TODO - Add all of the URLs from RECIPE_URLs here so that they are
-      //            added to the cache when the ServiceWorker is installed
+      //            added to the cache when the ServiceWorker is installe
       return cache.addAll(['https://introweb.tech/assets/json/1_50-thanksgiving-side-dishes.json',
       'https://introweb.tech/assets/json/2_roasting-turkey-breast-with-stuffing.json',
       'https://introweb.tech/assets/json/3_moms-cornbread-stuffing.json',
